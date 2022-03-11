@@ -99,6 +99,39 @@ public class StartPhoneBook {
         wd.findElement(By.cssSelector("#customers tr:nth-child(2) td:nth-child(2)"));
         wd.findElement(By.xpath("//*[@id='customers']//tr[2]/td[2]"));
 
+        @Test
+        public void cssLocatorsTest(){
+            wd = new ChromeDriver();
+            wd.navigate().to(" https://contacts-app.tobbymarshall815.vercel.app/login");
+            wd.manage().window().maximize();
+
+            wd.findElement(By.cssSelector(""));
+            // by tag name
+            wd.findElement(By.cssSelector("div"));
+            wd.findElement(By.xpath("//div"));
+            wd.findElement(By.cssSelector("a"));
+            wd.findElement(By.xpath("//a")); //   /html/body/div/div/a
+
+            // by class
+            wd.findElement(By.cssSelector(".login_login__3EHKB"));
+            wd.findElement(By.xpath("//*[@class='login_login__3EHKB']"));
+            // by id
+            wd.findElement(By.cssSelector("#root"));
+            wd.findElement(By.xpath("//*[@id='root']"));
+            // атрибут
+            wd.findElement(By.cssSelector("[placeholder]"));
+            wd.findElement(By.xpath("//*[@placeholder]"));
+
+            wd.findElement(By.cssSelector("[placeholder='Password']"));
+            wd.findElement(By.xpath("//*[@placeholder ='Password']"));
+
+            wd.findElement(By.cssSelector("[placeholder *='ss']"));
+            wd.findElement(By.xpath("//*[contains(@placeholder,'ss')]"));
+
+            wd.findElement(By.cssSelector("[placeholder ^='Pa']"));
+            wd.findElement(By.xpath("//*[starts-with(@placeholder,'Pa')]"));
+
+            wd.findElement(By.cssSelector("[placeholder $='rd']"));
 
 
 
