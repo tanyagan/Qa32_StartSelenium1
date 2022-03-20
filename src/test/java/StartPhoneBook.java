@@ -14,7 +14,7 @@ public class StartPhoneBook {
     public void startPhoneBook(){
         wd = new ChromeDriver();
 
-        //System.setProperty("webdriver.chrome.driver", "path");
+        //System.setProperty("webdriver.chrome.d  river", "path");
 
         // wd.get("https://contacts-app.tobbymarshall815.vercel.app/login");// open
         wd.navigate().to(" https://contacts-app.tobbymarshall815.vercel.app/");// open www + history
