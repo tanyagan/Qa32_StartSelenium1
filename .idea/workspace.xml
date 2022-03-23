@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="990fcd8c-58df-405e-913e-4a5909e99990" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StartPhoneBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StartPhoneBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TableTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,8 +67,8 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Gradle.TableTest.xPathTests (1)">
-    <configuration name="StartPhoneBook.cssLocatorsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.TableTest">
+    <configuration name="TableTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -83,7 +81,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;StartPhoneBook.cssLocatorsTest&quot;" />
+            <option value="&quot;TableTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -187,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TableTest" />
         <item itemvalue="Gradle.TableTest.xPathTests (1)" />
         <item itemvalue="Gradle.TableTest.xPathTests1" />
         <item itemvalue="Gradle.TableTest.tableCss1" />
         <item itemvalue="Gradle.TableTest.homework" />
-        <item itemvalue="Gradle.StartPhoneBook.cssLocatorsTest" />
       </list>
     </recent_temporary>
   </component>

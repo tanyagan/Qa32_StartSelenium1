@@ -11,7 +11,7 @@ public class StartPhoneBook {
     WebDriver wd;
 
     @Test
-    public void startPhoneBook(){
+    public void startPhoneBook() {
         wd = new ChromeDriver();
 
         //System.setProperty("webdriver.chrome.d  river", "path");
@@ -25,11 +25,10 @@ public class StartPhoneBook {
         // open login form  --- find loginbtn + click  --> opened form login
 
 
-
         // WebElement el = wd.findElement(By.id("idel"));
         // List<WebElement> list = wd.findElements(By.id("idel"));
         //WebElement a = wd.findElement(By.tagName("a")); --- > HOME
-        List <WebElement> elements = wd.findElements(By.tagName("a"));
+        List<WebElement> elements = wd.findElements(By.tagName("a"));
         WebElement login = elements.get(2);
         login.click();
 
@@ -50,7 +49,7 @@ public class StartPhoneBook {
 
 
     @Test
-    public void home(){
+    public void home() {
         wd = new ChromeDriver();
         wd.navigate().to(" https://contacts-app.tobbymarshall815.vercel.app/login");
         wd.manage().window().maximize();
@@ -85,7 +84,7 @@ public class StartPhoneBook {
 
 
     @Test
-    public void cssLocatorsTest(){
+    public void cssLocatorsTest() {
         wd = new ChromeDriver();
         wd.navigate().to(" https://contacts-app.tobbymarshall815.vercel.app/login");
         wd.manage().window().maximize();
@@ -117,7 +116,6 @@ public class StartPhoneBook {
         wd.findElement(By.xpath("//*[starts-with(@placeholder,'Pa')]"));
 
         wd.findElement(By.cssSelector("[placeholder $='rd']"));
-
 
 
     }
